@@ -1,0 +1,2 @@
+# Java
+alias listjava="/usr/libexec/java_home -V" 

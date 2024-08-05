@@ -1,0 +1,5 @@
+# Zsh Syntax Highlighting
+source /Users/davidhouston/.dotfiles/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Zsh Auto Complete
+source /Users/davidhouston/.dotfiles/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh

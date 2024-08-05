@@ -1,0 +1,8 @@
+[user]
+	name = David Houston
+	email = davidaehouston@gmail.com
+	signingkey = /Users/davidhouston/.ssh/id_ed25519.pub
+[gpg]
+	format = ssh
+[core]
+	excludesfile = /Users/davidhouston/.dotfiles/git/.gitignore

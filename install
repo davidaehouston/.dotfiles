@@ -1,0 +1,33 @@
+#!/usr/bin/env sh
+echo "Installing.."
+
+# SymLink gitConfig
+echo Setting up gitConfig..
+ln -sv /Users/davidhouston/.dotfiles/git/.gitconfig ~/.gitconfig
+
+# Symlink ZSH
+echo Setting up ZSH..
+ln -sv /Users/davidhouston/.dotfiles/zsh/.zshrc ~/.zshrc
+
+# Download Zsh Plugins
+echo Downloading ZSH Plugins..
+source zsh/.zsh-plugins-install
+
+# Download Jetbrains Mono Nerd Font
+echo Downloading/installing Jetbrains Mono Nerd Font
+brew install font-jetbrains-mono-nerd-font
+
+# Download Jenv
+echo Downloading/installing Jenv
+Brew install jenv
+
+# Download iTerm2
+echo Downloading/installing iTerm2
+Brew install --cask iTerm2
+
+# Download iTerm2
+echo Downloading/installing google-chrome
+Brew install --cask google-chrome
+
+
+echo "Install Complete.."
