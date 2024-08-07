@@ -19,15 +19,15 @@ brew install font-jetbrains-mono-nerd-font
 
 # Download Jenv
 echo Downloading/installing Jenv
-Brew install jenv
+brew install jenv
 
 # Download iTerm2
 echo Downloading/installing iTerm2
-Brew install --cask iTerm2
+brew install --cask iTerm2
 
 # Download iTerm2
 echo Downloading/installing google-chrome
-Brew install --cask google-chrome
+brew install --cask google-chrome
 
 
 echo "Install Complete.."
